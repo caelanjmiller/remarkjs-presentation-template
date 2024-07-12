@@ -1,0 +1,151 @@
+{
+    "genome_assembly": {
+        "filename": "JP_CDCPak_00094.fasta",
+        "filepath": "/scratch/gdlab/cmiller/hybrid-assemblies/enterobacter/JP_CDCPak_00094.fasta"
+    },
+    "metadata": {
+        "amrfinder": [
+            {
+                "% coverage of reference sequence": 100.0,
+                "% identity to reference sequence": 91.82,
+                "accession of closest sequence": "WP_002914189.1",
+                "alignment length": 391,
+                "class": "PHENICOL/QUINOLONE",
+                "contig id": "contig_2_polypolish",
+                "element subtype": "AMR",
+                "element type": "AMR",
+                "gene symbol": "oqxA",
+                "hmm description": "NA",
+                "hmm id": "NA",
+                "method": "BLASTX",
+                "name of closest sequence": "multidrug efflux RND transporter periplasmic adaptor subunit OqxA",
+                "reference sequence length": 391,
+                "scope": "core",
+                "sequence name": "multidrug efflux RND transporter periplasmic adaptor subunit OqxA",
+                "start": 1435202,
+                "stop": 1436374,
+                "strand": "+",
+                "subclass": "PHENICOL/QUINOLONE",
+                "target length": 391
+            },
+            {
+                "% coverage of reference sequence": 100.0,
+                "% identity to reference sequence": 96.95,
+                "accession of closest sequence": "WP_000347934.1",
+                "alignment length": 1050,
+                "class": "PHENICOL/QUINOLONE",
+                "contig id": "contig_2_polypolish",
+                "element subtype": "AMR",
+                "element type": "AMR",
+                "gene symbol": "oqxB",
+                "hmm description": "NA",
+                "hmm id": "NA",
+                "method": "BLASTX",
+                "name of closest sequence": "multidrug efflux RND transporter permease subunit OqxB",
+                "reference sequence length": 1050,
+                "scope": "core",
+                "sequence name": "multidrug efflux RND transporter permease subunit OqxB",
+                "start": 1436401,
+                "stop": 1439550,
+                "strand": "+",
+                "subclass": "PHENICOL/QUINOLONE",
+                "target length": 1050
+            },
+            {
+                "% coverage of reference sequence": 100.0,
+                "% identity to reference sequence": 98.58,
+                "accession of closest sequence": "WP_038415208.1",
+                "alignment length": 141,
+                "class": "FOSFOMYCIN",
+                "contig id": "contig_2_polypolish",
+                "element subtype": "AMR",
+                "element type": "AMR",
+                "gene symbol": "fosA",
+                "hmm description": "NA",
+                "hmm id": "NA",
+                "method": "BLASTX",
+                "name of closest sequence": "fosfomycin resistance glutathione transferase FosA",
+                "reference sequence length": 141,
+                "scope": "core",
+                "sequence name": "FosA/FosA2 family fosfomycin resistance glutathione transferase",
+                "start": 4140309,
+                "stop": 4140731,
+                "strand": "-",
+                "subclass": "FOSFOMYCIN",
+                "target length": 141
+            },
+            {
+                "% coverage of reference sequence": 100.0,
+                "% identity to reference sequence": 99.21,
+                "accession of closest sequence": "WP_022646807.1",
+                "alignment length": 381,
+                "class": "BETA-LACTAM",
+                "contig id": "contig_2_polypolish",
+                "element subtype": "AMR",
+                "element type": "AMR",
+                "gene symbol": "blaACT",
+                "hmm description": "NA",
+                "hmm id": "NA",
+                "method": "BLASTX",
+                "name of closest sequence": "cephalosporin-hydrolyzing class C beta-lactamase ACT-24",
+                "reference sequence length": 381,
+                "scope": "core",
+                "sequence name": "ACT family cephalosporin-hydrolyzing class C beta-lactamase",
+                "start": 4279018,
+                "stop": 4280160,
+                "strand": "+",
+                "subclass": "CEPHALOSPORIN",
+                "target length": 381
+            }
+        ],
+        "checkm": {
+            "completeness": 99.9669,
+            "contamination": 0.4978,
+            "gc_content": 0.5516,
+            "genome_size": 4723435,
+            "longest_contig": 4504108,
+            "longest_scaffold": 4504108,
+            "n50_contigs": 4504108,
+            "predicted_genes": 4333
+        },
+        "collection_site": "axilla",
+        "family": 10,
+        "mash_identification": {
+            "accession": "NZ_JZYQ01000001.1",
+            "species": "Enterobacter hormaechei strain 36796 contig1"
+        },
+        "mlst": {
+            "alleles": {
+                "dnaA": 59,
+                "fusA": 9,
+                "gyrB": 12,
+                "leuS": 271,
+                "pyrG": 35,
+                "rplB": 6,
+                "rpoB": 6
+            },
+            "id": "JP_CDCPak_00094",
+            "scheme": "ecloacae",
+            "sequence_type": "-"
+        },
+        "patient_letter": "A",
+        "sample_population": "patient",
+        "sample_time_point": 1,
+        "species": "Enterobacter hormaechei"
+    },
+    "sample_name": "JP_CDCPak_00094",
+    "sequencing_reads": [
+        {
+            "filename": "JP_CDCPak_00094_1_UP_clean.fastq.gz",
+            "filepath": "/scratch/gdlab/cmiller/pak3-isolates-short-reads/JP_CDCPak_00094_1_UP_clean.fastq.gz"
+        },
+        {
+            "filename": "JP_CDCPak_00094_1_RV_clean.fastq.gz",
+            "filepath": "/scratch/gdlab/cmiller/pak3-isolates-short-reads/JP_CDCPak_00094_1_RV_clean.fastq.gz"
+        },
+        {
+            "filename": "JP_CDCPak_00094_1_FW_clean.fastq.gz",
+            "filepath": "/scratch/gdlab/cmiller/pak3-isolates-short-reads/JP_CDCPak_00094_1_FW_clean.fastq.gz"
+        }
+    ]
+}
